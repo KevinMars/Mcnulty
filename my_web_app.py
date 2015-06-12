@@ -12,7 +12,7 @@ df = pd.read_csv("homeowner.data")
 
 X = df[['age','marital_status','edu_level_id','income_total']]
 Y = df['own']
-PREDICTOR = KNeighborsClassifier(n_neighbors=100).fit(X,Y)
+PREDICTOR = LogisticRegression().fit(X,Y)
 
 
 #---------- URLS AND WEB PAGES -------------#
