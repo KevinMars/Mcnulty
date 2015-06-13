@@ -5,4 +5,4 @@ I worked with Census Data from the Minnesota Population Center, University of Mi
 
 my_web_app.py is a web app made with Flask that allows you to adjust different features such as age and income to see it's effect on predicting whether someone is a homeowner.
 
-The two d3 graphs show the age and education level of homeowners vs renters. The black line depicts renters. 
+<b>Please view the powerpoint for more data and visualizations. </b>
